@@ -1,4 +1,26 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+* Libraries
+*.lib
+*.a
+*.lo
+
+# Debug files
+*.dsYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+dkms.conf
+
 *.log
-*.temp
-*.xml
-*.apk

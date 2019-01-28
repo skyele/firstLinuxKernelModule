@@ -4,7 +4,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Robert W. Oliver II");
-MODULE_DESCRPTION("A simple example Linux module.");
+MODULE_DESCRIPTION("A simple example Linux module.");
 MODULE_VERSION("0.01");
 
 static int __init lkm_example_init(void){
@@ -16,5 +16,5 @@ static void __exit lkm_example_exit(void){
 	printk(KERN_INFO "Goodbye, World!\n");
 }
 
-module_init(lkm_example_exit);
+module_init(lkm_example_init);
 module_exit(lkm_example_exit);
