@@ -18,3 +18,4 @@ static void __exit lkm_example_exit(void){
 
 module_init(lkm_example_init);
 module_exit(lkm_example_exit);
+//nom atse
